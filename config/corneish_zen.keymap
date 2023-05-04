@@ -42,7 +42,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp BSPC
    &kp LCTRL &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G   &kp M &hm LSHIFT N  &hm LCTRL E     &hm LALT I   &hm LGUI O      &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &trans &lt SYM SPACE &lt NUM ESC  &lt NAV RET &lt MOUSE BSPC &trans
+                  &trans &lt SYM SPACE &lt NUM ESC  &lt NAVI RET &lt MOUSE BSPC &trans
                         >;
                 };
                 mouse_layer {
