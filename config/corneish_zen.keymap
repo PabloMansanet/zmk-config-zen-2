@@ -65,8 +65,8 @@
                         bindings = <
    &kp TILDE &kp AMPS &kp STAR &kp DLLR &kp COLON &kp PERCENT &kp LPAR &kp RPAR &kp LBRC &kp RBRC 
    &hm LGUI BSLH &hm LALT GRAVE &hm LCTRL SEMI &hm LSHIFT DQT &kp CARET &trans &hm LSHIFT LBRC &hm LCTRL RBRC  &hm LALT MINUS &hm LGUI EQUAL
-   &kp EXCL &kp HASH &kp AT   &kp PLUS &kp PIPE &kp DEL &kp LT &kp GT #trans &kp QMARK
-                    	     &trans &trans  &trans #kp SEMI  &kp UNDER &trans
+   &kp EXCL &kp HASH &kp AT   &kp PLUS &kp PIPE &kp DEL &kp LT &kp GT &trans &kp QMARK
+                    	     &trans &trans  &trans &kp SEMI  &kp UNDER &trans
                         >;
                 };
                 number_layer{
@@ -75,7 +75,7 @@
    &kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN   &trans &kp N7  &kp N8 &kp N9 &trans
    &hm LGUI F11 &hm LALT F4 &hm LCTRL F5 &hm LSHIFT F6  &trans &trans &hm LSHIFT N4 &hm LCTRL N5 &hm LALT N6 &hm LGUI COMMA
    &kp F10   &kp F1 &kp F2   &kp F3   &trans      &trans &kp N1 &kp N2 &kp N3 &kp DOT
-                    	     &trans &trans   &trans #kp TAB &kp N0 &trans
+                    	     &trans &trans   &trans &kp TAB &kp N0 &trans
                         >;
                 };
         };
