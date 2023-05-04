@@ -53,10 +53,10 @@
                 navigation_layer {
                         label = "NAVI";
                         bindings = <
-   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
-   &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH
-   &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &trans   &trans &trans   &trans   &trans      &trans    &trans    &trans  &trans  &trans
+   &kp LGUI   &kp LALT &kp LCTRL &kp LSHIFT &trans      &kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp UP
+   &trans   &trans &trans   &trans   &trans      &kp INS &kp HOME &kp PG_DN &kp PG_UP &kp END
+                    	   &trans   &trans &trans   &trans   &trans &trans
                         >;
                 };
                 symbol_layer{
