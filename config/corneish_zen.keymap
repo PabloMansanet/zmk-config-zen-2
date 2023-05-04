@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
 
 #define BASE 0
 #define MOUSE 1
@@ -43,10 +44,10 @@
                 mouse_layer {
                         label = "MOUSE";
                         bindings = <
-  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0  
-  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans 
-  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans 
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &trans   &trans &trans   &trans   &trans      &mkp MCLK    &trans    &trans  &trans  &trans
+   &kp LGUI   &kp LALT &kp LCTRL &kp LSHIFT &trans      &mkp LCLK &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mmv MOVE_UP
+   &trans   &trans &trans   &trans   &trans      &mkp RCLK &mwh SCROLL_LEFT &mwh SCROLL_DOWN &mwh SCROLL_RIGHT &mwh SCROLL_UP
+                    	   &trans   &mkp LCLK &mkp MCLK   &mkp RCLK   &trans &trans
                         >;
                 };
 
@@ -63,9 +64,9 @@
                         label = "SYM";
                         bindings = <
    &kp TILDE &kp AMPS &kp STAR &kp DLLR &kp COLON &kp PERCENT &kp LPAR &kp RPAR &kp LBRC &kp RBRC 
-   &hm LGUI BSLH &hm LALT GRAVE &hm LCTRL SEMI &hm LSHIFT DQT   &kp CARET &trans &hm LSHIFT LBRC &hm LCTRL RBRC        &hm LALT MINUS &hm LGUI EQUAL
-   &kp EXCl &kp HASH &kp AT   &kp PLUS &kp PIPE &kp DEL &kp LT &kp GT #trans &kp QMARK
-                    	     &trans &trans   &trans #kp SEMI  &kp UNDER &trans
+   &hm LGUI BSLH &hm LALT GRAVE &hm LCTRL SEMI &hm LSHIFT DQT &kp CARET &trans &hm LSHIFT LBRC &hm LCTRL RBRC  &hm LALT MINUS &hm LGUI EQUAL
+   &kp EXCL &kp HASH &kp AT   &kp PLUS &kp PIPE &kp DEL &kp LT &kp GT #trans &kp QMARK
+                    	     &trans &trans  &trans #kp SEMI  &kp UNDER &trans
                         >;
                 };
                 number_layer{
