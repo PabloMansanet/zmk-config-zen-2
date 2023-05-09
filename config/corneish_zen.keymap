@@ -11,7 +11,6 @@
 
 / {
   chosen {
-    // zmk,matrix_transform = &default_transform;
     zmk,matrix_transform = &five_column_transform;
   };
 };
@@ -22,8 +21,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <0>;
+            tapping-term-ms = <400>;
+            // quick-tap-ms = <0>;
             // flavor = "tap-preferred";
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -65,7 +64,7 @@
                         label = "SYM";
                         bindings = <
    &kp TILDE &kp AMPS &kp STAR &kp DLLR &kp COLON &kp PERCENT &kp LPAR &kp RPAR &kp LBRC &kp RBRC 
-   &hm LGUI BSLH &hm LALT GRAVE &hm LCTRL SEMI &hm LSHIFT DQT &kp CARET &trans &hm LSHIFT LBRC &hm LCTRL RBRC  &hm LALT MINUS &hm LGUI EQUAL
+   &hm LGUI BSLH &hm LALT GRAVE &hm LCTRL SEMI &hm LSHIFT DQT &kp CARET &trans &hm LSHIFT LBKT &hm LCTRL RBKT  &hm LALT MINUS &hm LGUI EQUAL
    &kp EXCL &kp HASH &kp AT   &kp PLUS &kp PIPE &kp DEL &kp LT &kp GT &trans &kp QMARK
                     	     &trans &trans  &trans &kp SEMI  &kp UNDER &trans
                         >;
