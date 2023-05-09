@@ -9,6 +9,9 @@
 #define SYM 3
 #define NUM 4
 
+#define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_SCROLL_MAX 100                    /* <--- New max speed setting (default: 10) */
+
 / {
   chosen {
     zmk,matrix_transform = &five_column_transform;
